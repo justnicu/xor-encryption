@@ -31,7 +31,7 @@ Pentru a sparge o parola folosind doar fisierul output, am folosit cateva observ
 * Un text in limba romana nu are caracterele distribuite la intamplare, astfel ca ne putem folosi de cele mai populare caractere pentru a gasi cea mai probabila cheie
 
 Astfel, algoritmul de spargere a parolei consta in: 
-* Gasirea celor mai folosite caractere din limba romana (calculate la runtime folosind un text la intamplare in limba romana, gasit in fisierul text_romana.py), 
+* Gasirea celor mai folosite caractere din limba romana (calculate la runtime folosind un text la intamplare in limba romana, gasit in fisierul text_romana.txt), 
 * Decodarea fisierului output din baza 64 in string
 * Gasirea celei mai probabile lungimi a parolei, incercand toate variantele len de la 10 la 15 si calculand suma distantelor Hamming dintre toate substring-urile consecutive de lungime len si alegerea lungimii pentru care distanta medie e minima
 * Gasirea cheii, incercand toate caracterele posibile pentru fiecare pozitie si alegandu-l pe cel pentru care textul decriptat cu ajutorul lui contine cele mai multe caractere populare ale limbii romane, gasite anterior
