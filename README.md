@@ -19,7 +19,7 @@ Această comandă va decripta textul din fișierul binar fisier_output în fiși
 ```
 python3 input_output_cracker.py fisier_input fisier_output
 ```
-Această comandă va afișa în consolă parola care a fost folosită pentru a cripta fișierul fisier_input în fisier_output. Programul aplica operația XOR între caracterele de pe aceleași poziții din fisier_input și fisier_ouput (input XOR (input XOR key) = key) și afișează cel mai scurt repeating pattern (care este chiar parola folosită pentru criptare).
+Această comandă va afișa în consolă parola care a fost folosită pentru a cripta fișierul fisier_input în fisier_output. Programul aplică operația XOR între caracterele de pe aceleași poziții din fisier_input și fisier_ouput (input XOR (input XOR key) = key) și afișează cel mai scurt repeating pattern (care este chiar parola folosită pentru criptare).
 
 ## Membrii echipei:
 * Vlad Ciocoiu
