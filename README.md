@@ -37,7 +37,7 @@ Astfel, algoritmul de spargere a parolei consta in:
 * Gasirea cheii, incercand toate caracterele posibile pentru fiecare pozitie si alegandu-l pe cel pentru care textul decriptat cu ajutorul lui contine cele mai multe caractere populare ale limbii romane, gasite anterior
 
 ## Confruntare
-Link Repo adversari: https://github.com/vali2wd/XOR_Encryption-ASC-
+Link Repo adversari: https://github.com/vali2wd/XOR_Encryption-ASC-  
 Parola: parolamea2021
 
 ## Membrii echipei
